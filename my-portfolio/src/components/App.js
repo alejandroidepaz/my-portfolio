@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styling/App.css';
-import { NavLink, Switch, Route } from 'react-router-dom';
+import {Switch, Route } from 'react-router-dom';
 import Navigator  from "./Navigation";
 import Home from "./Home";
 import Projects from "./Projects";
