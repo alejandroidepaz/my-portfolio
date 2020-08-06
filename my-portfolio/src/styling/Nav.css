@@ -16,35 +16,49 @@ body, html{
 
 #header{
 
-    background-image: url("../assets/portland_skyline.jpg");
+    /* background-image: url("../assets/portland_skyline.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 250px;
+    background-repeat: no-repeat; */
+    background-color: black;
+    height: 35vh;
     display: flex;
     align-items: center;
+    padding: 0;
 }
-
-/* #header::after {
-    content: "";
-    background-image: url("../assets/portland_skyline.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 250px;
-    opacity: .9;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
 
 #headshot{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
     border: solid 3px white;
     border-radius: 5px;
+    float: left;
+    width: calc(100px + 15%)
 }
+
+.icon{
+    float: right;
+    padding: 15px;
+}
+
+.icon_div{
+
+    float:right;
+    display:block;
+    width: 100%;
+}
+
+.column1 {
+    width: calc(50% - 8vw);
+
+}
+
+.column2{
+    width: calc(50% + 8vw);
+
+}
+
+/* @media screen and (max-width: 600px) {
+    .column1, .column2 {
+      width: 100%;
+    }
+} */

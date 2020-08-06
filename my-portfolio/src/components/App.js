@@ -7,6 +7,12 @@ import Projects from "./Projects";
 import Blog from "./Blog";
 import Contact from "./Contact";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, fas)
+
 // Handles page switches by rendering appropriate component
 const Router = () =>{
 
