@@ -2,7 +2,12 @@ import React from 'react';
 
 const Blog = () => {
 
-    return <div><h1>Where I Blog</h1></div>
+    return (
+        <div>
+            <h1>What's New?</h1>
+            <hr style={{width:"75%"}}></hr>
+        </div>
+    )
 }
 
 export default Blog;

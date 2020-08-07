@@ -6,6 +6,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Blog from "./Blog";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -31,6 +32,7 @@ function App() {
     <div className="App">
       <Navigator />
       <Router />
+      <Footer />
     </div>
   );
 }

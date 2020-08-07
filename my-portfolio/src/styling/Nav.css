@@ -2,6 +2,7 @@ body, html{
 
     margin: 0px;
     padding: 0px;
+
 }
 
 .nav_link{
@@ -62,3 +63,17 @@ body, html{
       width: 100%;
     }
 } */
+
+footer{
+
+    background-color: black;
+    flex-shrink: 0;
+    margin-top: 150px;
+}
+
+.footer_icon{
+
+    display: inline-block;
+    padding: 25px;
+    
+}
