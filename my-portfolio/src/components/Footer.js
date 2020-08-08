@@ -5,7 +5,7 @@ import "../styling/index.css";
 const Footer = () =>{
 
     return (
-        <div>
+        <div style={{position:"relative", minHeight:"50vh"}}>
             <footer>
                     <div className="footer_icon"><a href="https://www.linkedin.com/in/alejandrodepaz/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" color="white" /></a></div>
                     <div className="footer_icon"><a href="mailto:adepaz@cs.uoregon.edu"><FontAwesomeIcon icon={['fas', 'envelope']} size="lg" color="white" /></a></div>

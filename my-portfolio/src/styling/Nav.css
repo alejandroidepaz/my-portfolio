@@ -2,7 +2,12 @@ body, html{
 
     margin: 0px;
     padding: 0px;
+    height: 100%;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav_link{
@@ -67,9 +72,11 @@ body, html{
 footer{
 
     background-color: black;
-    flex-shrink: 0;
-    margin-top: 150px;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%
 }
+
 
 .footer_icon{
 

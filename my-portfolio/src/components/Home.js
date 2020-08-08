@@ -12,9 +12,9 @@ const Home = () => {
                 <p style={{marginLeft:"auto", marginRight:"auto", width:"75%", textAlign:"left"}}>
                     
                     Hi, my name is Alejandro De Paz. I was born and raised in Portland, Oregon,
-                    where I enjoy biking, tennis, and endless foodcart cuisine. When I'm not outdoors, 
-                    I'm working on mastering my music production skills with Abelton, playing Super
-                    Smash Bros. Melee, or try exercising my own creative gastronomic abilities. 
+                    where I've spent the last 22 years enjoying urban biking, tennis, and endless foodcart cuisine. 
+                    When I'm not outdoors, I'm working on mastering my music production skills with Abelton, 
+                    playing Super Smash Bros. Melee, or try exercising my own creative gastronomic abilities. 
                     <br /> <br />
                     I recently graduated from the University of Oregon, where I received my 
                     B.S. in Computer & Information Science with minors in Mathematics and Computer Information
