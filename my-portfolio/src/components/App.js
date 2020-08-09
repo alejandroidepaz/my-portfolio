@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ProjectDisplay from './ProjectDisplay';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -23,6 +24,7 @@ const Router = () =>{
     <Route exact path="/projects" component={Projects}></Route>
     <Route exact path="/blog" component={Blog}></Route>
     <Route exact path="/contact" component={Contact}></Route>
+    <Route exact path="/project/:projectName" component={ProjectDisplay}></Route>
   </Switch>
   )
 }

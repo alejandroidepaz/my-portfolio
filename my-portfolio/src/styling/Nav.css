@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.current{
+    border-bottom: 2px solid black;
+}
+
 #header{
 
     /* background-image: url("../assets/portland_skyline.jpg");
@@ -33,12 +37,10 @@ body {
 }
 
 #headshot{
-    margin-left: auto;
-    margin-right: auto;
     border: solid 3px white;
     border-radius: 5px;
-    float: left;
-    width: calc(100px + 15%)
+    width: calc(100px + 10%);
+
 }
 
 .icon{
@@ -54,7 +56,7 @@ body {
 }
 
 .column1 {
-    width: calc(50% - 8vw);
+    width: calc(50% - 9vw);
 
 }
 
@@ -63,11 +65,12 @@ body {
 
 }
 
-/* @media screen and (max-width: 600px) {
-    .column1, .column2 {
-      width: 100%;
+@media screen and (max-width: 480px) { 
+    /* Force icon container width to 30% to account for image shrinkage */
+    .column1 {
+      width: 35%;
     }
-} */
+}
 
 footer{
 

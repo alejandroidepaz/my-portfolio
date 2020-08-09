@@ -11,7 +11,7 @@ const Contact = () => {
                 <p><strong>Email: </strong><em>adepaz@cs.uoregon.edu</em></p>
                 <p><strong>LinkedIn: </strong><a style={{textDecoration:"none"}} href="https://www.linkedin.com/in/alejandrodepaz/" target="_blank" rel="noopener noreferrer"><em>Alejandro De Paz</em></a></p>
                 <br /> 
-                <p style={{fontSize:"18px"}}><em>I am available for calls between the hours of 9am-5pm, Monday-Friday.</em></p>
+                <p><em>* I am available for calls between the hours of 9am-5pm, Monday-Friday.</em></p>
             </article>      
         </div>
 
