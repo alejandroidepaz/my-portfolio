@@ -13,6 +13,7 @@ const Navigator = () => {
         <div id="header">
             <div className="column1">
                 <div className="icon_div"><a className="icon" href="https://www.linkedin.com/in/alejandrodepaz/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" color="white" /></a></div>
+                <div className="icon_div"><a className="icon" href="https://bitbucket.org/alejandrodepaz/software-projects" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'bitbucket']} size="lg" color="white" /></a></div>
                 <div className="icon_div"><a className="icon" href="mailto:adepaz@cs.uoregon.edu"><FontAwesomeIcon icon={['fas', 'envelope']} size="lg" color="white" /></a></div>
                 <div className="icon_div"><a className="icon" href="tel:503-997-1658"><FontAwesomeIcon icon={['fas', 'phone']} size="lg" color="white" /></a></div>
             </div>
